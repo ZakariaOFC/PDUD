@@ -1,0 +1,91 @@
+body{
+  padding: 0px;
+  margin-top: 50px;
+}
+
+a{
+  text-decoration: none;
+}
+
+/*MEDIA*/
+html {
+  scroll-behavior: smooth;
+}
+
+@media (max-width: 450px) {
+  .card-intro {
+    margin-top: 56px;
+  }
+}
+
+@media (min-width: 1441px) {
+  .card-intro {
+    padding-left: 0 !important;
+  }
+}
+
+/*IMAGE*/
+.img_logo{
+  width: 50px;
+  height: 50px;
+}
+
+.img_banner{
+  height: auto;
+}
+/*END IMAGE*/
+
+/*HEADER*/
+.navbar .navbar-brand img {
+  height: 20px;
+}
+
+.navbar .navbar-brand {
+  padding-top: 0;
+}
+
+.navbar .nav-link {
+  color: #444343!important;
+}
+
+.navbar .button-collapse {
+  padding-top: 1px;
+}
+
+.card-intro .card-body {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  border-radius: 0 !important;
+}
+
+.card-intro .card-body h1 {
+  margin-bottom: 0;
+}
+
+.card-intro {
+  margin-top: 64px;
+}
+/*END HEADER*/
+
+
+/*FOOTER*/
+.page-footer,.navbar{
+  background-color: #88B04B;
+}
+
+.footerbox{
+  text-align: center;
+  margin: auto;
+}
+/*END FOOTER*/
+
+/*BODY*/
+#contact_us,#our_member,#our_project,#menu{
+  padding-bottom: 70px;
+  padding-top: 80px;
+}
+/*END BODY*/
+
+.d-block{
+  height: 624px;
+}
